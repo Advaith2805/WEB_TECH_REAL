@@ -1,0 +1,21 @@
+always €(posedge clock)
+
+| begin
+1f (reset)
+ps <=void;
+else
+begin
+case (ps)
+void: begin
+
+newspaper <= 1'b0;
+cadbury_bar <= 1'b0;
+
+tropicana juice <= 1'b0;
+
+balance = money:
+
+display ("You have canceled your order! Here is your balance td", balance);
+
+end
+

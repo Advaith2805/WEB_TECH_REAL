@@ -116,15 +116,48 @@ app.post('/cart/add', async (req, res) => {
 
 
 // Get Cart Items endpoint
+// Get Cart Items endpoint
 app.get('/cart', async (req, res) => {
+  const { userEmail } = req.query;
+
   try {
-    const cartItems = await CartItem.find();
-    res.json(cartItems);
+    const user = await User.findOne({ email: userEmail });
+    if (user) {
+      const cartItems = user.cartItems || [];
+      res.json(cartItems);
+    } else {
+      res.json([]); // Return an empty array if the user is not found
+    }
   } catch (error) {
     console.error('Error fetching cart items:', error);
     res.status(500).json({ message: 'Internal server error' });
   }
 });
+
+app.delete('/cart/remove/:itemId', async (req, res) => {
+  const { userEmail } = req.query;
+  const itemId = req.params.itemId;
+
+  try {
+    const user = await User.findOne({ email: userEmail });
+
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    user.cartItems = user.cartItems.filter((item) => item._id.toString() !== itemId);
+    await user.save();
+
+    res.status(200).json({ message: 'Item removed from cart' });
+  } catch (error) {
+    console.error('Error removing item from cart:', error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+});
+
+// ...
+
+
 
 app.listen(PORT1, () => {
   console.log(`Server is running on port ${PORT1}`);

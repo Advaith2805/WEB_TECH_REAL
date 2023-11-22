@@ -1,0 +1,111 @@
+.header{
+    text-align: center;
+    position:fixed;
+    top: 195px;
+    left:545px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: auto; 
+    width: 400px;   
+    color:white;
+}
+.oval{
+    position:relative;
+    top:185px;
+    left:595px;
+    background-color: black;
+    height: 100px;
+    width:300px;
+    border-radius: 50%;
+}
+.emailbox{
+  height:30px;
+  position: fixed;
+  top: 325px;
+  left:600px;
+  width: 250px;
+}
+#emailbox:hover{
+    background-color: white;
+    opacity: 1.0;
+}
+#password{
+    position:fixed;
+    left:600px;
+    top:500px;
+    width:fit-content;
+    font-size: x-large;
+}
+#password:hover{
+    background-color: white;
+    opacity: 1.0;
+}
+#explore{
+    position:fixed;
+    top:600px;
+    left:650px;
+}
+button{
+    color:red;
+    height: 50px;
+    width:150px;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+button:hover {
+    background-color: white;
+    opacity: 1.0;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+  }
+  .unique-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  .footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    background-image: radial-gradient(circle, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    color: white;
+    text-align: right;
+  }
+  body {
+    background-image: 
+      radial-gradient(circle, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("Background.png");
+    height: 100vh;
+    margin: 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }
+  .submitbutton{
+    height:50px;
+    position:fixed;
+    top:550px;
+    left:650px;
+    width:150px;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    font-size: xx-large;
+}
+  .loginq{
+    color: red;
+    background-color: black;
+    position: fixed;
+    top: 600px;
+    left: 550px;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -1,0 +1,65 @@
+const express = require("express")
+const collection = require("./mongo")
+const cors = require("cors")
+const app1=express()
+app1.use(express.json)
+app1.use(express.urlencoded({extended:true}))
+app1.use(cors())
+
+
+app1.get("/",cors(),(req,res)=>{
+
+})
+
+
+app1.post("/",async(req,res)=>{
+    const{email,password}=req.body
+
+    try{
+        const check=await collection.findOne({email:email})
+
+        if(check){
+            res.data==="exist"
+        }
+        else{
+            res.data==="notexist"
+        }
+
+    }
+    catch(e){
+        res.json("fail")
+    }
+
+})
+
+
+
+app1.post("/signup",async(req,res)=>{
+    const{email,password}=req.body
+
+    const data={
+        email:email,
+        password:password
+    }
+
+    try{
+        const check=await collection.findOne({email:email})
+
+        if(check){
+            res.data==="exist"
+        }
+        else{
+            res.data==="notexist"
+            await collection.insertMany([data])
+        }
+
+    }
+    catch(e){
+        res.json("fail")
+    }
+
+})
+
+app1.listen(3000,()=>{
+    console.log("port connected");
+})

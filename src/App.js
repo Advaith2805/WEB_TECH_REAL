@@ -5,6 +5,7 @@ import Login from './Login';
 import HomePage from './Home';
 import ProductPage from './Product';
 import Cart from './Cart';
+import AboutUs from './About';
 const App = () => {
   return (
     <Router>

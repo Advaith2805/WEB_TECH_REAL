@@ -10,7 +10,7 @@ const data={
             description:'Free-to-play first-person tactical hero shooter'
         },
         {
-            name:'FIFA-24',
+            name:'EAFC-24',
             slug:'fc_24',
             category:'GAMES',
             images:'/images/p2.jpg',

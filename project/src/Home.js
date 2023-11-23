@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar'
+import "./Home.css";
 
 const HomePage = () => {
   const products = [
@@ -10,15 +12,13 @@ const HomePage = () => {
 
   return (
     <div>
-      <div className="oval">
-        <h1>THE GAMING HUB</h1>
-      </div>
+      <Navbar/>
       <div className="product-list">
         {products.map((product) => (
           <div key={product.id} className="product-item">
             <img src={product.image} alt={product.name} />
             <h3>{product.name}</h3>
-            <p>{product.description}</p>
+            <p className='description'>{product.description}</p>
             <h3>{product.price}</h3>
             {/* Use the correct format for the to prop */}
             <Link to={`/product/${product.price}`}>
@@ -30,12 +30,4 @@ const HomePage = () => {
     </div>
   );
 };
-
-
 export default HomePage;
-
-
-
-
-
-

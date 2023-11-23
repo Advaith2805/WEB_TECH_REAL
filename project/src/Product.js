@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import { useUser } from './UserContext';
+import Navbar from './Navbar';
 
 const ProductPage = () => {
   const { productId } = useParams();

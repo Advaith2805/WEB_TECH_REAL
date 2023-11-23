@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import asphaltImage from './ASPHALT 9.jpg';
-import hogwartsImage from './HOGWARTS.jpg';
-import assassinImage from './ASSASINS.jpg';
+import hogwartsImage from './HOGWARTS.jpg'
+import assassinImage from './ASSASINS.jpg'
 
 
 const HomePage2 = () => {
@@ -22,37 +22,37 @@ const HomePage2 = () => {
                     <h1 className='wnew'>TRENDING</h1>
                 </div>
             </header>
-        <div className="product-list">
-            {products.map((product) => (
-            <div key={product.id} className="product-item">
-            <img src={product.image} alt={product.name} />
-            <div className='oval3'>
-            <h2 class="productname">{product.name}</h2>
+            <div className="product-list">
+                {products.map((product) => (
+                <div key={product.id} className="product-item">
+                    <img src={product.image} alt={product.name} />
+                    <div className='oval3'>
+                        <h2 class="productname">{product.name}</h2>
+                    </div>
+                    <div className='oval4'>
+                        <p className="productdesc">{product.description}</p>
+                    </div>
+                    <div className='oval5'>
+                        <h3 className='pricehome'>Rs: {product.price}</h3>
+                    </div>
+                    {/* Use the correct format for the to prop */}
+                    <div className='oval6'>
+                        <div className='productlink'>
+                            <Link to={`/product/${product.price}`}>
+                                Add to cart
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            ))}
             </div>
-            <div className='oval4'>
-             <p className="productdesc">{product.description}</p>
+            <div className="oval7">
+                <div className="trending">
+                    <Link to={`/home2`}>SEE WHAT'S TRENDING</Link>
+                </div>
             </div>
-            <div className='oval5'>
-                <h3 className='pricehome'>Rs: {product.price}</h3>
-            </div>
-            {/* Use the correct format for the to prop */}
-            <div className='oval6'>
-            <div className='productlink'>
-            <Link to={`/product/${product.price}`}>
-              Add to cart
-            </Link>
-            </div>
-            </div>
-          </div>
-        ))}
-      </div>
-      <div className="oval7">
-        <div className="trending">
-      <Link to={`/home2`}>SEE WHAT'S TRENDING</Link>
-      </div>
-      </div>
-      </body>
+        </body>  
     </div>
-  );
+    );
 };
 export default HomePage2;

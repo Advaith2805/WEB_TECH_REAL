@@ -9,7 +9,6 @@ const Navbar = () =>{
             <div className='navbar-title'>
                 <h4>The Gaming Hub</h4>
             </div>
-
             <div className='navbarLinks'>
                 <Link to="/Home"> Shop </Link>
                 <Link to="/cart">

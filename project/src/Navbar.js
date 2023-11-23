@@ -7,10 +7,10 @@ const Navbar = () =>{
     return(
         <div className='navbar'>
             <div className='navbar-title'>
-                <h1>The Gaming Hub</h1>
+                <h4>The Gaming Hub</h4>
             </div>
 
-            <div className='navbar-links'>
+            <div className='navbarLinks'>
                 <Link to="/Home"> Shop </Link>
                 <Link to="/cart">
                     <FontAwesomeIcon icon={faShoppingCart}/>

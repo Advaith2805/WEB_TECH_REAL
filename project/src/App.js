@@ -6,11 +6,12 @@ import HomePage from './Home';
 import ProductPage from './Product';
 import Cart from './Cart';
 import AboutUs from './About';
-import Navbar from './Navbar';
+import './App.css'
+
+
 const App = () => {
   return (
     <Router>
-      <Navbar />
       <Routes>
        <Route path="/" element={<Login/>} />
         <Route path="/signup" element={<Signup/>} />

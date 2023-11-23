@@ -34,13 +34,9 @@ body {
   font-size: 20px;
   margin-right: 20px;
 }
-h1{
-  text-align: center;
-  position:fixed;
-  top: 195px;
-  left:545px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  height: auto; 
-  width: 400px;   
+h4{
   color: red;
+  text-decoration: none;
+  font-size:larger;
+  margin-right: 20px;
 }

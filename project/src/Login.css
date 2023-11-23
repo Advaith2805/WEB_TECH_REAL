@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    position:fixed;
+    top: 195px;
+    left:545px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: auto; 
+    width: 400px;   
+    color: red;
+}
+.oval{
+    position:relative;
+    top:185px;
+    left:595px;
+    background-color: black;
+    height: 100px;
+    width:300px;
+    border-radius: 50%;
+}
+body{
+    background-image:
+    radial-gradient(circle,rgba(255,0,0,0.5),rgba(0,0,0,0.5)), 
+    url('Background.png');
+}
+.emailbox{
+    height:30px;
+    position: fixed;
+    top: 325px;
+    left:600px;
+    width: 250px;
+}
+#emailbox:hover{
+    background-color: whitesmoke;
+    opacity: 1.0;
+}
+.passwordbox{
+    height:30px;
+    position: fixed;
+    top:425px;
+    left:600px;
+    width:250px;
+}
+#passwordbox:hover{
+    background-color: whitesmoke;
+    opacity: 1.0;
+}
+.submitbutton{
+    height:50px;
+    position:fixed;
+    top:550px;
+    left:650px;
+    width:150px;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    font-size: xx-large;
+}
+.signupq{
+    color: red;
+    background-color: black;
+    position: fixed;
+    top: 600px;
+    left: 550px;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -24,6 +24,7 @@ const Signup = () => {
       } else if (response.data.message === 'User already exists') {
         // Handle the case where the user already exists (show a message, etc.)
         console.log('User already exists');
+        
       } else {
         // Handle other success scenarios or show a message
       }

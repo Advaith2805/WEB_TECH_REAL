@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import valorantImage from './VALORANT.jpg';
-import fifaImage from './FIFA.jpg'
-import fallguysImage from './FALLGUYS.jpg'
-import './Home.css'
+import asphaltImage from './ASPHALT 9.jpg';
+import hogwartsImage from './HOGWARTS.jpg'
+import assassinImage from './ASSASINS.jpg'
 
-const HomePage = () => {
+
+const HomePage2 = () => {
   const products = [
-    { id: 1, name: 'VALORANT', description: 'Valorant is an online multiplayer computer game, produced by Riot Games. It is a first-person shooter game, consisting of two teams of five, where one team attacks and the other defends', image:valorantImage, price: 2500 },
-    { id: 2, name: 'FIFA-23', description: 'FIFA 23 brings football to the pitch with HyperMotion2 Technology that delivers even more gameplay realism both the men and women FIFA World Cup', image:fifaImage , price: 4000 },
-    {id: 3, name: 'FALL GUYS', description: 'The game involves up to 40 players who control jellybean-like characters and compete against each other in a series of randomly selected mini-games such as obstacle courses or survival challenges. Players are eliminated as the rounds progress until, eventually, the last remaining player is crowned the winner.', image: fallguysImage, price: 4000}
+    { id: 1, name: 'ASPHALT 9', description: 'In Asphalt 9: Legends, take the wheel of real cars from high-end renowned legendary car manufacturers, such as Ferrari, Porsche, Lamborghini, and W Motors, among many other international brands.', image: asphaltImage, price: 3500 },
+    { id: 2, name: 'HOGWARTS LEGACY', description: 'Hogwarts Legacy is an immersive, open-world action RPG set in the world first introduced in the Harry Potter books. For the first time, experience Hogwarts in the 1800s.', image: hogwartsImage, price: 4300 },
+    {id: 3, name: 'ASSASSIN:MIRAGE', description: ' This smaller scale, back to basics Assassin caper, you play Basim, a young street thief seeking answers. Roam the richly-detailed, reactive and vibrant streets of 9th century Baghdad, uncovering the mysteries of the past as you fight to secure your future.', image: assassinImage, price: 4000}
   ];
 
   return (
@@ -19,7 +19,7 @@ const HomePage = () => {
       
       <header>
        <div className="oval1">
-         <h1 className='wnew'>WHAT'S NEW</h1>
+         <h1 className='wnew'>TRENDING</h1>
        </div>
       </header>
       <div className="product-list">
@@ -62,10 +62,6 @@ const HomePage = () => {
 
 
 
-export default HomePage;
 
 
-
-
-
-
+export default HomePage2;

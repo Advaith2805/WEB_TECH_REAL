@@ -1,0 +1,159 @@
+header{
+    background-image:url('Background.png');
+}
+.wnew{
+    text-align:center;
+    
+    position:absolute;
+    top:4px;
+    left:-50px;
+    right: 20px;
+    
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+height: auto; 
+width: 400px;   
+    color: red;
+        
+ 
+    
+
+    
+
+    
+
+
+}
+.oval1{
+    position:relative;
+    top:0px;
+    left:590px;
+    background-color: black;
+    height: 100px;
+    width:300px;
+    border-radius: 50%;
+}
+.product-list{
+    display: flex;
+
+
+
+}
+.product-item{
+    margin: 20px;
+    margin-left: 10px;
+    margin-right:10px ;
+}
+.productname{
+    text-align: center;
+    top: 15px;
+    left:5px;
+   
+    position:relative;
+    color: red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    border-radius: 50%;
+    font-size: x-large;
+}
+.productdesc{
+    text-align: center;
+    position: relative;
+    top: 89px;
+    left:2px;
+    
+    color: red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    border-radius: 50%;
+   
+}
+.pricehome{
+    text-align: center;
+    position: relative;
+    color: red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    top:12px;
+}
+.productlink a{
+    color: red;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    
+    text-align: center;
+    text-decoration: none;
+  
+}
+.productlink{
+    width: 300px;
+    
+    position: relative;
+    top:15px;
+    left: 100px;
+}
+.trending a{
+    color: red;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 65px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    text-decoration: none;
+
+}
+.oval3{
+    background-color: black;
+    height:50px;
+    width:250px;
+    position: relative;
+    border-radius: 50%;
+    top:0px;
+    left:50px;
+}
+
+
+
+.oval4{
+    
+    background-color: black;
+    border-radius: 50%;
+    height: 250px;
+    width:450px;
+    position: relative;
+    top:0px;
+    left:0px;
+}
+.oval5{
+    background-color: black;
+    border-radius: 50%;
+    height:50px;
+    width:300px;
+    position: relative;
+    left: 50px;
+
+
+}
+.oval6{
+    background-color: black;
+    border-radius: 50%;
+    height:50px;
+    width:300px;
+    position: relative;
+    left: 50px;
+    top:20px;
+
+
+}
+.oval7{
+    background-color: black;
+    border-radius: 50%;
+    height:150px;
+    width:400px;
+    position: relative;
+    left: 575px;
+    top:20px;
+
+}

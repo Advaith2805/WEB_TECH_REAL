@@ -1,0 +1,120 @@
+.productholder{
+    background-color: black;
+    border-radius: 50%;
+    width: 400px;
+    height: 100px;
+    position: relative;
+    top:120px;
+
+}
+.productprice{
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    left:145px;
+    top:9px;
+
+}
+.productquan{
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    left:145px;
+    top:10px;
+}
+.totalpriceind{
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    left:145px;
+    top:11px;
+    
+}
+.Removebutton{
+    position: relative;
+    border-radius: 50%;
+    top:130px;
+    left:140px;
+}
+.carttitle{
+    position:relative;
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top: 30px;
+    left:60px;
+
+}
+.oval12{
+    position:relative;
+    top:100px;
+    left:590px;
+    background-color: black;
+    border-radius: 50%;
+    width: 400px;
+    height: 100px;
+    
+}
+.totalamount{
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    position: relative;
+    top:40px;
+    left:100px;
+
+}
+.totalamountoval{
+    position: relative;
+    top:200px;
+    background-color: black;
+    border-radius: 50%;
+    width: 400px;
+    height: 100px;
+    left:590px;
+
+}
+.QRCODE{
+    position: absolute;
+    top:350px;
+    left:1000px;
+    width: 20px;
+    height: 20px;
+
+}
+.qrtext{
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    border-radius: 50%;
+    width:200px;
+    height:30px;
+    text-align: center;
+    font-size: x-large;
+}
+.summarylink a{
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 80px;
+    top:15px;
+    
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+
+}
+.oval13{
+    position: relative;
+    top:20px;
+    background-color: black;
+    height:50px;
+    width:300px;
+    border-radius: 50%;
+}
+
+.qrimage{
+    height: 300px;
+    width:300px;
+}

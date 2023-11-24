@@ -5,4 +5,23 @@
     padding-top: 250px;
     top: 250px;
     left: 545px;
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top:0px;
+    left:0px;
+}
+.ABOUTUSHEADING{
+    position: absolute;
+    top:100px;
+    left:375px;
+}
+.oval14{
+    position: relative;
+    top:30px;
+    left: 200px;
+    background-color: black;
+    border-radius: 50%;
+    width: 1200px;
+    height:600px
 }

@@ -1,0 +1,88 @@
+
+.producttitle{
+    position: relative;
+    left:10px;
+    top:30px;
+    
+    
+}
+.oval8{
+    position: relative;
+    
+    background-color: black;
+    border-radius: 50%;
+    height:100px;
+    width:410px;
+    top:170px;
+    left:500px;
+}
+.pricepara{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    left: 55px;
+    top:15px;
+    font-size: larger;
+
+
+}
+.oval9{
+    position: relative;
+    top:190px;
+    left: 550px;
+    background-color: black;
+    border-radius: 50%;
+    width:300px;
+    height:50px;
+    
+}
+.quan{
+    color:red;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    left: 55px;
+    top:15px;
+
+}
+.inputbox{
+    position: relative;
+    left:75px;
+    top:12px;
+}
+
+.oval10{
+    position: relative;
+    top: 210px;
+    left:525px;
+    background-color: black;
+    border-radius: 50%;
+    width: 350px;
+    height: 50px;
+
+}
+.addbutton{
+    position: relative;
+    top:230px;
+    left:620px;
+    border-radius: 50%;
+}
+.viewcart a{
+    position: relative;
+    top:15px;
+    left:80px;
+    text-decoration: none;
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+
+}
+.oval11{
+    position: relative;
+    top: 250px;
+    left: 525px;
+    background-color: black;
+    border-radius: 50%;
+    width:350px;
+    height: 50px;
+}

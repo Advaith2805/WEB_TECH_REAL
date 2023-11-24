@@ -6,8 +6,11 @@ const AboutUs = () => {
     return (
         <div>
             <Navbar/>
-        <h1>About Us</h1>
+        
+        
+        <div className='oval14'>
         <p className="p">
+        <h1 className='ABOUTUSHEADING'>About Us</h1>
             Welcome to THE GAMING HUB, the premiere destination for all your gaming needs. Whether you 
             are an avid gamer or just dipping your toes into the world of video gaming. Here you will
             find an unparalleled selection of titles ,consoles and accessories, along with helpful guides 
@@ -21,6 +24,7 @@ const AboutUs = () => {
             EMAIL: thegaminghub@gmail.com
             
         </p>
+        </div>
         </div>
         
 

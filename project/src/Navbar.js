@@ -10,7 +10,9 @@ const Navbar = () =>{
                 <h4>The Gaming Hub</h4>
             </div>
             <div className='navbarLinks'>
-                <Link to="/Home"> Shop </Link>
+                <Link to="/Home"> What's New </Link>
+                <Link to="/Home2">Trending</Link>
+                <Link to="/Home3">Classics</Link>
                 <Link to="/cart">
                     <FontAwesomeIcon icon={faShoppingCart}/>
                 </Link>

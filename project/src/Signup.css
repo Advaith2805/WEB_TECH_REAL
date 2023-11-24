@@ -6,7 +6,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height: auto; 
     width: 400px;   
-    color:white;
+    color:red;
 }
 .oval{
     position:relative;
@@ -108,4 +108,8 @@ button:hover {
     left: 550px;
     font-size: xx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.loginq a{
+  color:red;
+  text-decoration: none;
 }

@@ -1,0 +1,18 @@
+.summary-container{
+    background-color: black;
+    height: 300px;
+    width:650px;
+    border-radius: 50%;
+    position: relative;
+    top:10px;
+    left:540px;
+}
+.summary-content{
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:x-large;
+    position: relative;
+    top:85px;
+    left:35px;
+
+}

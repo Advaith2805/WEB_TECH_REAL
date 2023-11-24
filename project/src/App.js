@@ -3,7 +3,10 @@ import { BrowserRouter as Router, Route,Routes} from 'react-router-dom';
 import Signup from './Signup';
 import Login from './Login';
 import HomePage from './Home';
+import HomePage2 from './Home2';
+import HomePage3 from './Home3';
 import ProductPage from './Product';
+import Summary from './summary';
 import Cart from './Cart';
 import AboutUs from './About';
 import './App.css'
@@ -23,6 +26,7 @@ const App = () => {
         
         <Route path="/product/:productId" element={<ProductPage/>}/>
         <Route path="/cart" element={<Cart/>}/>
+        <Route path="/summary" element={<Summary/>}/>
       </Routes>
     </Router>
   );

@@ -4,7 +4,7 @@ import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import { useUser } from './UserContext';
 import Navbar from './Navbar';
-
+import './Product.css'
 const ProductPage = () => {
   const { productId } = useParams();
 
@@ -30,27 +30,46 @@ const ProductPage = () => {
   };
 
   return (
+    
     <div>
-      <h1>Product Page</h1>
+      <Navbar/>
+     
+      <div className='oval8'>
+       <h1 className='producttitle'>Product Details</h1>
+      </div>
       {/* Display product details */}
-      <p>Product Price: Rs. {productId}</p>
+      <div className='oval9'>
+      <p className='pricepara'>Product Price: Rs. {productId}</p>
+      </div>
      
 
       {/* Add to Cart section */}
       <div>
-        <label>Quantity:</label>
+        <div className='oval10'>
+         <label className='quan'>Quantity:</label>
+       
         <input
+         className='inputbox'
           type="number"
           value={quantity}
           onChange={(e) => setQuantity(e.target.value)}
         />
-        <button onClick={handleAddToCart}>Add to Cart</button>
+        </div>
+
+        <button className='addbutton'onClick={handleAddToCart}>Add to Cart</button>
+
       </div>
 
       {/* Link to view the shopping cart */}
       <div>
+        <div className='oval11'>
+          <div className='viewcart'>
         <Link to="/cart">View Shopping Cart</Link>
+        </div>
+        </div>
       </div>
+      
+      
     </div>
   );
 };

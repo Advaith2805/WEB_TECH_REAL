@@ -29,7 +29,7 @@ body {
 }
 
 .navbar a {
-  color: white;
+  color: red;
   text-decoration: none;
   font-size: 20px;
   margin-right: 20px;
@@ -37,6 +37,7 @@ body {
 h4{
   color: red;
   text-decoration: none;
-  font-size:larger;
+  font-size:xx-large;
   margin-right: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

@@ -48,7 +48,7 @@ const HomePage2 = () => {
             </div>
             <div className="oval7">
                 <div className="trending">
-                    <Link to={`/home2`}>SEE WHAT'S TRENDING</Link>
+                    <Link to={`/home3`}>SEE THE CLASSICS</Link>
                 </div>
             </div>
         </body>  

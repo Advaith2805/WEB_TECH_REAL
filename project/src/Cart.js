@@ -45,7 +45,6 @@ const Cart = () => {
   return (
     <div>
       <Navbar />
-<<<<<<< HEAD
       <div className='oval12'>
         <h2 className='carttitle'>Shopping Cart and Checkout</h2>
       </div>
@@ -70,7 +69,6 @@ const Cart = () => {
       <div className='totalamountoval'>
         <p className='totalamount'>Total Amount: {totalAmount}</p>
       </div>
-
       <div className='QRCODE'>
         <p className='qrtext'>PAY HERE</p>
         <img className='qrimage' src={qr} alt='QR Code' />
@@ -80,7 +78,6 @@ const Cart = () => {
           </div>
         </div>
       </div>
-=======
       <h2>Shopping Cart</h2>
       <ul>
         {cartItems.map((item) => (
@@ -91,9 +88,7 @@ const Cart = () => {
           </li>
         ))}
       </ul>
->>>>>>> f8e52e23a75e665c59a1af7e40f8e3b65ea62423
     </div>
   );
 };
-
 export default Cart;

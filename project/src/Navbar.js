@@ -7,7 +7,9 @@ const Navbar = () =>{
     return(
         <div className='navbar'>
             <div className='navbar-title'>
-                <h4>The Gaming Hub</h4>
+                <Link to="/Home">
+                    <h4>The Gaming Hub</h4>
+                </Link>
             </div>
             <div className='navbarLinks'>
                 <Link to="/Home"> What's New </Link>

@@ -9,8 +9,6 @@ import ProductPage from './Product';
 import Summary from './summary';
 import Cart from './Cart';
 import AboutUs from './About';
-import HomePage2 from './Home2';
-import HomePage3 from './Home3';
 import './App.css'
 
 

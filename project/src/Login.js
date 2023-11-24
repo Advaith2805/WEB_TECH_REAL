@@ -89,14 +89,11 @@ const Login = () => {
         />
         <button class="submitbutton" type="submit">Login</button>
       </form>
-
       <p class="signupq">
-        Not signed up? <Link to="/signup" >Sign up here </Link>
+        Not signed up? <Link className="signupqlink"to="/signup" >Sign up here </Link>
       </p>
     </div>
     </body>
   );
 };
-
 export default Login;
-

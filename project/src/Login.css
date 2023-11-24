@@ -64,7 +64,6 @@ body{
     font-size: xx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.signupq a{
-    color:red;
-    text-decoration: none;
+.signupqlink{
+    color:lightgrey;
 }

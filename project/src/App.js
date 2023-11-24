@@ -6,6 +6,8 @@ import HomePage from './Home';
 import ProductPage from './Product';
 import Cart from './Cart';
 import AboutUs from './About';
+import HomePage2 from './Home2';
+import HomePage3 from './Home3';
 import './App.css'
 
 

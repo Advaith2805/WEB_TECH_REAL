@@ -24,7 +24,7 @@ const Cart = () => {
   const handleRemoveItem = async (itemId) => {
     try {
       await axios.delete(`http://localhost:3001/cart/remove/${itemId}?userEmail=${userEmail}`);
-      setCartItems([]);
+      setCartItems((prevItems) => prevItems.filter((item) => item._id !== itemId));
     } catch (error) {
       console.error('Error removing item from cart:', error);
     }
@@ -49,8 +49,8 @@ const Cart = () => {
         <h2 className='carttitle'>Shopping Cart and Checkout</h2>
       </div>
       {cartItems.length === 0 ? (
-        <p>No items in the cart</p>
-      ) : (
+        <p style={{fontSize:'40px',fontFamily:"sans-serif",fontWeight:"bolder",color:'lightgrey'}}>No items in the cart</p>
+      ):(
         <ul>
           {cartItems.map((item) => (
             <li key={item._id}>
@@ -78,16 +78,6 @@ const Cart = () => {
           </div>
         </div>
       </div>
-      <h2>Shopping Cart</h2>
-      <ul>
-        {cartItems.map((item) => (
-          <li key={item._id}>
-            <p>Product ID: {item.productId}</p>
-            <p>Quantity: {item.quantity}</p>
-            <p>Price: {item.productId}*{item.quantity}</p>
-          </li>
-        ))}
-      </ul>
     </div>
   );
 };

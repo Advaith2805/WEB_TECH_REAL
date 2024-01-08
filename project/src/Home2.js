@@ -8,7 +8,7 @@ import assassinImage from './ASSASINS.jpg'
 
 const HomePage2 = () => {
   const products = [
-    { id: 1, name: 'ASPHALT 9', description: 'In Asphalt 9: Legends, take the wheel of real cars from high-end renowned legendary car manufacturers, such as Ferrari, Porsche, Lamborghini, and W Motors, among many other international brands.', image: asphaltImageimage, price: 3500 },
+    { id: 1, name: 'ASPHALT 9', description: 'In Asphalt 9: Legends, take the wheel of real cars from high-end renowned legendary car manufacturers, such as Ferrari, Porsche, Lamborghini, and W Motors, among many other international brands.', image: asphaltImage, price: 3500 },
     { id: 2, name: 'HOGWARTS LEGACY', description: 'Hogwarts Legacy is an immersive, open-world action RPG set in the world first introduced in the Harry Potter books. For the first time, experience Hogwarts in the 1800s.', image: hogwartsImage, price: 4300 },
     {id: 3, name: 'ASSASSIN:MIRAGE', description: ' This smaller scale, back to basics Assassin caper, you play Basim, a young street thief seeking answers. Roam the richly-detailed, reactive and vibrant streets of 9th century Baghdad, uncovering the mysteries of the past as you fight to secure your future.', image: assassinImage, price: 4000}
   ];
